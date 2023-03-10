@@ -111,3 +111,113 @@ button.remove {
 button.remove:hover {
   background-color: #a3a3a3;
 }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 200ms ease-in-out;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.popup {
+  background-color: var(--bookColor);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  z-index: 10;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 400px;
+  width: 300px;
+  transition: 200ms ease-in-out;
+}
+
+.popup.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  font-family: var(--tiltWarp);
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  font-family: var(--tiltWarp);
+}
+
+.popup-header button {
+  font-size: 30px;
+}
+
+.popup-header button:hover {
+  cursor: pointer;
+}
+
+.cancel {
+  align-self: flex-start;
+  background: none;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+
+.text-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.checkbox-input {
+  width: 15px;
+  outline: none;
+}
+
+.checkbox-input:hover {
+  cursor: pointer;
+}
+.popup-submit-button {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #86efac;
+  padding: 20px 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: var(--tiltWarp);
+  font-size: 20px;
+}
+
+.popup-submit-button:hover {
+  cursor: pointer;
+  background-color: #4ade80;
+}

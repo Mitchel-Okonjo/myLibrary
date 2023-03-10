@@ -9,6 +9,31 @@
   </head>
   <body>
     <div class="container">
+      <div class="popup">
+        <div class="popup-header">
+          <div class="popup-text">Add new book</div>
+          <button class="cancel">&times;</button>
+        </div>
+        <form id="form">
+          <div>
+            <input type="text" placeholder="Title" class="text-input" />
+          </div>
+          <div>
+            <input type="text" placeholder="Author" class="text-input" />
+          </div>
+          <div>
+            <input type="text" placeholder="Pages" class="text-input" />
+          </div>
+          <div class="checkbox">
+            Have you read it?
+            <input type="checkbox" class="checkbox-input" />
+          </div>
+          <div>
+            <button type="submit" class="popup-submit-button">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="overlay"></div>
       <div class="header">
         <h1>myLibrary</h1>
       </div>
@@ -27,4 +52,5 @@
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
