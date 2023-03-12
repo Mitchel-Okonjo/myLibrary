@@ -16,13 +16,28 @@
         </div>
         <form id="form">
           <div>
-            <input type="text" placeholder="Title" class="text-input" />
+            <input
+              type="text"
+              placeholder="Title"
+              class="text-input title-input"
+              required
+            />
           </div>
           <div>
-            <input type="text" placeholder="Author" class="text-input" />
+            <input
+              type="text"
+              placeholder="Author"
+              class="text-input author-input"
+              required
+            />
           </div>
           <div>
-            <input type="text" placeholder="Pages" class="text-input" />
+            <input
+              type="number"
+              placeholder="Pages"
+              class="text-input pages-input"
+              required
+            />
           </div>
           <div class="checkbox">
             Have you read it?
@@ -39,16 +54,7 @@
       </div>
       <div class="main-content">
         <button type="button" class="add-book">&plus; Add book</button>
-        <div class="books-container">
-          <div class="book">
-            <div class="title">Purple Hibiscus</div>
-            <div class="by">By</div>
-            <div class="author">Chimamanda Ngozi Adichie</div>
-            <div class="pages">1756</div>
-            <button class="not-read">Not Read</button>
-            <button class="remove">Remove</button>
-          </div>
-        </div>
+        <div class="books-container"></div>
       </div>
     </div>
   </body>
