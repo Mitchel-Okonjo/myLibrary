@@ -1,1 +1,1 @@
-A little web Library app created with HTML, CSS and Javascript
+A local library for logging your favorite books to read. view [live Demo.](https://mitchel-okonjo.github.io/myLibrary/)
