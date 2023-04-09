@@ -1,0 +1,18 @@
+{
+  "name": "mylibrary",
+  "version": "1.0.0",
+  "description": "A little web Library app created with HTML, CSS and Javascript",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
