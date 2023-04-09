@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Warp&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Warp&display=swap');
 
 :root {
-  --tiltWarp: "Tilt Warp", sans-serif;
+  --tiltWarp: 'Tilt Warp', sans-serif;
   --bookColor: #faf5ff;
   --box-shadow: 0px 2px 5px 1px lightgray;
 }
@@ -73,6 +73,7 @@ button.add-book:hover {
   box-shadow: var(--box-shadow);
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .title,
